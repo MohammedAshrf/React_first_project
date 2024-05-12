@@ -1,11 +1,9 @@
 import "./App.css";
-import OnePage from "./OnePage";
-// import VitePage from "./VitePage";
+import OnePage from "./OnePage.jsx";
 
 function App() {
   return (
     <div className="app">
-      {/* <VitePage /> */}
       <OnePage />
     </div>
   );

@@ -1,6 +1,7 @@
-export default function MainContent() {
+export default function MainContent(props) {
   return (
-    <div className="main-content">
+    // eslint-disable-next-line react/prop-types
+    <div className={`main-content ${props.lightMode ? "light" : ""}`}>
       <h1>This is the Main Content Component</h1>
       <ul>
         <li>Was first released in 2013</li>
